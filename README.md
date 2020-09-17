@@ -1,5 +1,6 @@
 Web-приложение реализовано с применением ASP.NET Core MVC
-СУБД: MS SQL Server
+
+СУБД: MS SQL Server.
 В качестве ORM используется EntityFrameworkCore (подход Code First)
 Для создания БД и последубщего обновления структуры применяем миграции:
 

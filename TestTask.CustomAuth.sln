@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CustomAuth", "TestTask.CustomAuth\TestTask.CustomAuth.csproj", "{9729656F-735D-4504-A990-88660534BFBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTask.CustomAuth", "TestTask.CustomAuth\TestTask.CustomAuth.csproj", "{9729656F-735D-4504-A990-88660534BFBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CustomAuth.Tests", "TestTask.CustomAuth.Tests\TestTask.CustomAuth.Tests.csproj", "{4184E002-784D-4609-A99F-31E067BF0B07}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTask.CustomAuth.Tests", "TestTask.CustomAuth.Tests\TestTask.CustomAuth.Tests.csproj", "{4184E002-784D-4609-A99F-31E067BF0B07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9D1EFE92-0850-4C33-8890-2B73D41B9BCB}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

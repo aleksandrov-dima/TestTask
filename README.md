@@ -6,6 +6,8 @@ Web-приложение реализовано с применением ASP.NE
 
 *dotnet ef database update*
 
+(не забыть поменять connectionString к серверу БД в файле appsettings.json)
+
 В БД появятся таблицы:
 
 * Products

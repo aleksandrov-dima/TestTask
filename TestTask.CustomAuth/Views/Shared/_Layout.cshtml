@@ -1,0 +1,37 @@
+﻿@using System.Security.Claims
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href = "~/lib/bootstrap/dist/css/bootstrap.min.css" rel = "stylesheet">
+    <script src = "~/lib/jquery/dist/jquery.min.js"></script>
+    <script src = "~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <title>TestTask</title>
+</head>
+<body>
+<nav class="navbar navbar-light bg-light" role="navigation">
+    <div class="col-8"></div>
+    <div class="col-2">
+        @if (@User.HasClaim(ClaimsIdentity.DefaultRoleClaimType, "admin"))
+        {
+            <a class="btn btn-sm btn-primary"
+               asp-action="Index" asp-controller="Admin">Редактирование</a>
+        }
+    </div>
+    <div class="col-1">
+        <a class="btn btn-sm btn-secondary"
+           asp-action="Logout" asp-controller="Account">Выход</a>
+    </div>
+</nav> 
+<div class="row m-1 p-1">
+    <div id="categories" class="col-3">
+        @await Component.InvokeAsync("NavigationMenu")
+    </div>
+    <div class="col-9">
+        @RenderBody()
+    </div>
+</div>
+</body>
+</html>

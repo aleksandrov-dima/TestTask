@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CustomAuth", "TestTask.CustomAuth\TestTask.CustomAuth.csproj", "{9729656F-735D-4504-A990-88660534BFBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestTask.CustomAuth.Tests", "TestTask.CustomAuth.Tests\TestTask.CustomAuth.Tests.csproj", "{4184E002-784D-4609-A99F-31E067BF0B07}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9729656F-735D-4504-A990-88660534BFBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9729656F-735D-4504-A990-88660534BFBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9729656F-735D-4504-A990-88660534BFBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9729656F-735D-4504-A990-88660534BFBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4184E002-784D-4609-A99F-31E067BF0B07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4184E002-784D-4609-A99F-31E067BF0B07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4184E002-784D-4609-A99F-31E067BF0B07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4184E002-784D-4609-A99F-31E067BF0B07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C52EE7D1-715F-45A8-BAC6-8E7D6A9234C7}
+	EndGlobalSection
+EndGlobal
